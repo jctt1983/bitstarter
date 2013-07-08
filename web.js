@@ -1,5 +1,5 @@
 var express = require('express');
-var fs = requre('fs');
+var fs = require('fs');
 
 var getStringFromIndexFile = function(filename){
     var buffer = fs.readFileSync(filename);
