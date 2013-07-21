@@ -1,291 +1,177 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en" class="no-js"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en" class="no-js"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en" class="no-js"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en" class="no-js">
+  <!--<![endif]-->
   <head>
-    <meta charset="utf-8">
-    <title>Tag Me</title>
-    <link type="text/css" rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-2.3.2.css">
-    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
-    <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">    
-    <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
-    <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js"></script>
-    <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700,800" 
-          rel="stylesheet" type="text/css">
-    <style type="text/css">
+    <title>Tag Me! | Home</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-      /* Large desktop */
-      @media (min-width: 980px) { 
-        body {
-         padding-top: 60px;
-        }
-       .linediv-l {
-         border-right: 1px white solid;
-        }
-       .linediv-r {
-         border-left: 1px white solid;
-       }
-      }
-
-      /* Landscape phones and down */
-      @media (max-width: 480px) { 
-       .copy {
-         padding: 2.5% 10%;
-       }
-       .linediv-l {
-         border-bottom: 1px white solid;
-       }
-       .linediv-r {
-         border-top: 1px white solid;
-       }
-      }
-
-      /* All form factors */
-
-      /* Main body and headings */
-      body{
-        font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-      }
-      .heading, .subheading {
-        font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
-        text-align: center;
-      }
-      p.lead {
-        padding-top: 1.5%;
-        font-size: 24px;
-        line-height: 30px;
-      }
-      p {
-        font-size: 18px;
-        line-height: 24px;
-      }
-
-      /* Video pitch and Action */
-      .pitch {
-        padding: 2.5% 0%;
-      }
-      .order {
-        padding: 2% 0%;
-      }
-      .actions {
-        background-color: #343434;
-        padding: 3% 0%;
-      }
-      .video, .thermometer, .order, .social, .statistics {
-        text-align: center;
-      }
-      .statistics h3, .statistics p {
-        color: white;
-      }
-
-      /* Marketing Copy and Footer */
-      .copy {
-        padding-top: 2.5%;
-        padding-bottom: 2.5%;
-        text-align: justify;
-      }
-      .asset {
-        padding: 2.5% 0%;
-      }
-      .footer {
-        color: #cccccc;
-        text-align: center;
-      }
-      .footer p {
-        font-size: 11px;
-      }
-      .footer a {
-        color: #ccccff;
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap-responsive.css" />
+    <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+	<link rel="stylesheet" type="text/css" href="/css/style-product.css" />
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,700" rel="stylesheet" type="text/css" />
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements and IE Fallback-->
+    <!--[if lt IE 9]>
+        <script src="/js/html5shiv.js"></script>
+                <link href="/css/ie.css" rel="stylesheet">
+        <![endif]-->
+    <!-- Fav and touch icons -->
   </head>
   <body>
-
-    <!-- Mobile-friendly navbar adapted from example. -->
-    <!-- http://twitter.github.io/bootstrap/examples/starter-template.html -->
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <button type="button" class="btn btn-navbar"
-                  data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="brand" href="#">Tag Me!</a>
-          <div class="nav-collapse collapse">
-            <ul class="nav">
+  <div class="wrapper">
+    <!-- begins header -->
+    <header class="header">
+      <!-- begins navbar -->
+      <div id="top-nav" class="navbar">
+        <div class="navbar-inner">
+          <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"></a> 
+          <a class="brand" data-section="body" href="/">
+            <img src="/img/marker.png" width="60" alt="Kanji Me!" />
+            <h1 class="hide">Tag Me! | Protect and track your most valuables with Tag me</h1>
+          </a>
+          <nav id="main-menu" class="nav-collapse collapse">
+            <h2 class="hide">Main Navigation</h2>
+            <ul class="nav pull-right">
+              <li>
+                <a href="#pricing">Features</a>
+              </li>
+              <!--<li><a href="#testimonials-section">Testimonials</a></li>-->
+              <li>
+                <a href="#call-to-newsletter">Suscribe</a>
+              </li>
             </ul>
-          </div><!--/.nav-collapse -->
+          </nav></div>
         </div>
       </div>
+      <!-- ends navbar -->
+      <!-- begins hero unit -->
+      <div class="hero-unit">
+        <div class="container">
+          <div class="row-fluid">
+            <div class="span4 hero-text">
+				<h2 class="heading">Tag Me!</h2>
+				<p class="description">Protect and track your most valuables with Tag me<br/>The smallest GPS tracker of the world!</p>
+			</div>
+            <div class="span8 hero-image">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ends hero unit -->
+    </header>
+    <!-- ends header -->
+	
+	
+
+	
+    <!-- begins main content -->
+    <div class="main-content">
+      <section id="features-section" class="container section features">
+        <div class="row-fluid feature-item">
+          <div class="span6">
+			<div id="pricing" class="section pricing">
+				<div >
+					<div class="pricing-table recommended">
+						<ul class="icon-feature">
+							<li><h3>0</h3> <p>backers</p></li>
+							<li><h3>$0</h3> <p>of $120,000</p></li>
+							<li><h3>100</h3> <p>days left</p></li>
+						</ul>
+						<div class="progress" style="width:90%; margin:0 auto 15px auto;">
+						  <div class="bar bar-success" style="width: 20%;"></div>
+						  <div class="bar bar-danger" style="width: 80%;"></div>
+						</div>					
+						<div class="bottom">	
+							<a href="#" class="btn btn-primary">Preorder</a>
+						</div>
+					</div>
+				</div>
+			</div>
+          </div>
+          <div class="span6 right-text">
+            <h2 class="heading">Preorder now!</h2>
+            <p class="description">You can preorder and become the first of many that can possess this unique and revolutionary device</p>
+          </div>
+        </div>
+        <hr />
+        <div class="row-fluid feature-item">
+          <div class="span6">
+            <h2 class="heading">Feature 1</h2>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta, dui sagittis hendrerit rutrum, nunc leo tempus nisl, eu mollis justo velit at nunc. Fusce nec egestas sem. Donec fringilla ante lectus, a pellentesque lacus dignissim ac. Sed volutpat lorem ut congue malesuada.</p>
+          </div>
+          <div class="span6">
+            <img src="http://placehold.it/480x300" alt="Feature" />
+          </div>
+        </div>
+        <hr />
+        <div class="row-fluid feature-item">
+          <div class="span6">
+            <img src="http://placehold.it/480x300" alt="Feature" />
+          </div>
+          <div class="span6 right-text">
+            <h2 class="heading">Feature 2</h2>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta, dui sagittis hendrerit rutrum, nunc leo tempus nisl, eu mollis justo velit at nunc. Fusce nec egestas sem. Donec fringilla ante lectus, a pellentesque lacus dignissim ac. Sed volutpat lorem ut congue malesuada.</p>
+          </div>
+        </div>
+        <hr />
+	</section>
+
+
     </div>
-
-    <!-- We use row-fluid inside containers to achieve a resizable layout. -->
-    <!-- blogs.endjin.com/2013/04/tips-for-implementing-responsive-designs-using-bootstrap/ -->
-    <!-- http://stackoverflow.com/a/12270322 -->
-    <div class="container">
-      <!-- Font and paired font of .heading/.subheading and body from Google Fonts -->
-      <!-- www.google.com/fonts/specimen/Ubuntu -->
-      <!-- www.google.com/fonts/specimen/Ubuntu#pairings -->
-      <div class="row-fluid heading">
-        <div class="span12">
-          <h1>Tag Me!  </h1>
-        </div>
-      </div> 
-      <div class="row-fluid subheading">
-        <div class="span12">
-          <!-- Special typography from Bootstrap for lead paragraph. -->
-          <!-- http://twitter.github.io/bootstrap/base-css.html#typography -->
-          <p class="lead">Protect and track your most valuables with Tag me</p>
-        </div>
-      </div>
-      <div class="row-fluid pitch">
-        <div class="span5 offset1 video">
-          <img class="img-polaroid" src="http://placehold.it/480x300">
-        </div>
-
-        <!-- We define a new 'actions' div to contain statistics, order, and share buttons.-->
-        <div class="span5 actions">
-          <div class="span8 offset2">
-            <div class="statistics">
-              <div class="span4">
-                <!-- linediv-l and linediv-r give dividing lines that look
-                different in horizontal and vertical layouts, illustrating
-                media queries. -->
-                <div class="linediv-l">
-                <h3>0</h3> <p>backers</p>
-                </div>
-              </div>
-              <div class="span4">
-                <div class="linediv-c">
-                  <h3>$0</h3> <p>of $120,000</p>
-                </div>
-              </div>
-              <div class="span4">
-                <div class="linediv-r">
-                <h3>100</h3> <p>days left</p>
-                </div>
-              </div>
-            </div>
+    <!-- ends main content -->
+    <!-- begins footer -->
+    <section id="call-to-newsletter" class="full-width newsletter">
+      <div class="container">
+        <div class="row-fluid">
+          <div class="span6">
+            <h3 class="heading">Join Our Newsletter</h3>
+            <p class="description">Stay up to date with the latest news by subscribing to our newsletter.</p>
           </div>
-          <div class="span10 offset1">
-            <!-- Bootstrap progress bar -->
-            <!-- http://twitter.github.io/bootstrap/components.html#progress -->
-            <div class="thermometer progress active">
-              <div class="bar bar-success" style="width: 60%;"></div>
-              <div class="bar bar-warning" style="width: 40%;"></div>
-            </div>
-          </div>
-          <div class="span6 offset3 order">
-            <!-- Standard Bootstrap button. -->
-            <!-- http://twitter.github.io/bootstrap/base-css.html#buttons -->
-            <button class="btn btn-success btn-large">Preorder</button>
-          </div>
-          <div class="span8 offset2 social">
-            <!-- Social buttons are not included in default Bootstrap. -->
-            <!-- See: http://noizwaves.github.io/bootstrap-social-buttons -->
-            <button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
-            <button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
+          <div class="span6">
+            <form class="form-inline pull-right">
+            <input type="email" name="email" placeholder="youremail@domain.com" /> 
+            <input type="submit" class="btn btn-primary" value="Subscribe Now" /></form>
           </div>
         </div>
       </div>
+    </section>
 
-      <!-- Beyond this part the marketing copy begins. -->
-      <!-- https://developer.mozilla.org/en-US/docs/Web/CSS/text-align -->
-      <!-- http://twitter.github.io/bootstrap/base-css.html#images -->
-      <!-- http://placehold.it -->
-      <div class="row-fluid section1">
-        <div class="span5 offset1 asset">
-          <img class="img-polaroid" src="http://placehold.it/480x300">
-        </div>
-        <div class="span5 copy">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            porta, dui sagittis hendrerit rutrum, nunc leo tempus nisl, eu
-            mollis justo velit at nunc. Fusce nec egestas sem. Donec
-            fringilla ante lectus, a pellentesque lacus dignissim ac. Sed
-            volutpat lorem ut congue malesuada. In facilisis scelerisque
-            turpis sed lacinia. Donec in orci lectus. Donec auctor semper
-            quam, eget rhoncus purus fringilla id. Phasellus id nibh eu
-            risus ultrices adipiscing.  Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit. Donec porta, dui sagittis hendrerit
-            rutrum, nunc leo tempus nisl, eu mollis justo velit at
-            nunc. Fusce nec egestas sem. Donec fringilla.
-          </p>
-        </div>
-      </div>
-
-      <div class="row-fluid section2">
-        <div class="span5 offset1 copy copy-right">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            porta, dui sagittis hendrerit rutrum, nunc leo tempus nisl, eu
-            mollis justo velit at nunc. Fusce nec egestas sem. Donec
-            fringilla ante lectus, a pellentesque lacus dignissim ac. Sed
-            volutpat lorem ut congue malesuada. In facilisis scelerisque
-            turpis sed lacinia. Donec in orci lectus. Donec auctor semper
-            quam, eget rhoncus purus fringilla id. Phasellus id nibh eu
-            risus ultrices adipiscing.  Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit. Donec porta, dui sagittis hendrerit
-            rutrum, nunc leo tempus nisl, eu mollis justo velit at
-            nunc. Fusce nec egestas sem. Donec fringilla.
-          </p>
-        </div>
-        <div class="span5 asset">
-          <img class="img-polaroid" src="http://placehold.it/480x300">
-        </div>
-      </div>
-
-      <!-- For the FAQ, we introduce a little bit of JS, using the accordion. -->
-      <!-- This brings in jquery.js and bootstrap.js as dependencies. -->
-      <!-- http://twitter.github.io/bootstrap/javascript.html#collapse -->
-      <div class="row-fluid faq">
-          <div class="span10 offset1">
-            <h3>FAQ</h3>
-            <div class="accordion" id="accordion2">
-              <div class="accordion-group">
-                <div class="accordion-heading">
-                  <a class="accordion-toggle" data-toggle="collapse"
-                     data-parent="#accordion2" href="#collapseOne">
-                    What does FAQ stand for?
-                  </a>
-                </div>
-                <div id="collapseOne" class="accordion-body collapse">
-                  <div class="accordion-inner">
-                    Frequently Asked Question.
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-group">
-                <div class="accordion-heading">
-                  <a class="accordion-toggle" data-toggle="collapse"
-                     data-parent="#accordion2" href="#collapseTwo">
-                    What's a Frequently Asked Question?
-                  </a>
-                </div>
-                <div id="collapseTwo" class="accordion-body collapse">
-                  <div class="accordion-inner">
-                    A question which is commonly asked by users.
-                  </div>
-                </div>
-              </div>
-            </div>
+    <footer class="full-width footer">
+      <div class="container">
+        <div class="row-fluid">
+          <div class="span6 copyright">Powered by Alteran System, Copyright 2013. All Rights Reserved.</div>
+          <div class="span6 social">
+            <ul>
+              <li>
+                <a href="#"></a>
+              </li>
+              <li>
+                <a href="#"></a>
+              </li>
+              <li>
+                <a href="#"></a>
+              </li>
+              <li>
+                <a href="#"></a>
+              </li>
+            </ul>
           </div>
-
-      </div>
-
-      <!-- Not crucial, but we put this under a CC By-SA 3.0 license. -->
-      <!-- http://creativecommons.org/licenses/ -->
-      <div class="row-fluid footer">
-        <div class="span12">
-          <p>This work is licensed under
-            the <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC
-              By-SA 3.0
-            </a>, without all the cruft that would otherwise be
-            put at the bottom of the page.</p>
         </div>
       </div>
-    </div>
-
-  </body>
+    </footer>
+    <!-- ends footer -->
+  </div>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/flexslider/2.1/jquery.flexslider.js"></script> 
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/1.4.3/jquery.scrollTo.min.js"></script> 
+  <script src="//cdn.jsdelivr.net/jquery.localscroll/1.2.8b/jquery.localScroll.js"></script> 
+  <script type="text/javascript" src="/js/big-thing.js"></script></body>
 </html>
