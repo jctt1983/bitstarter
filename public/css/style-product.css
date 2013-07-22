@@ -42,6 +42,15 @@
 	position: relative;
 }
 
+.pricing-table .promotion {
+	text-align: left;
+}
+
+.pricing-table .promotion  h3{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 900;
+}
+
 .pricing-table .description {
 	font-size: 1.3em;
 	font-weight: normal;
