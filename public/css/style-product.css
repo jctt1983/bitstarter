@@ -51,6 +51,12 @@
 	font-weight: 900;
 }
 
+.pricing-table .promotion  h5{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 900;
+	text-align: center;
+}
+
 .pricing-table .description {
 	font-size: 1.3em;
 	font-weight: normal;
@@ -167,8 +173,17 @@
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
+	.pricing {
+		width:100%;
+		margin: 0 auto;
+	}
+
 	.pricing-table {
-		padding: 30px 0 0 0; 
+		padding: 0px; 
+	}
+	
+	.recommended-info{
+		padding: 15px;
 	}
 
 	.pricing-table .bottom {
