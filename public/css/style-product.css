@@ -114,6 +114,13 @@
 	background-color: #9BA3AA;
 }
 
+.bottom .social-share  div.addthis_toolbox {
+	width:184px;
+	height:32px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
 
 
 /* Media Queries
